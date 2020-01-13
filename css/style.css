@@ -9,17 +9,16 @@ body {
 }
 
 a {
-  color: #7e7e7e;
+  color: #50d8af;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #7e7e7e;
+  color: #51d8af;
   outline: none;
   text-decoration: none;
-  style: bold;
 }
 
 p {
@@ -44,7 +43,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #7e7e7e;
+  background: #50d8af;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -55,7 +54,7 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #7e7e7e;
+  background: #50d8af;
   color: #fff;
   outline: none;
 }
@@ -82,11 +81,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 #topbar .contact-info i {
-  color: #7e7e7e;
+  color: #50d8af;
   padding: 4px;
 }
 
@@ -105,7 +104,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 #topbar .social-links a:first-child {
@@ -141,7 +140,7 @@ h6 {
 }
 
 #header #logo h1 a span {
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 #header #logo img {
@@ -189,14 +188,14 @@ h6 {
 }
 
 #intro .intro-content h2 {
-  color: #000000;
+  color: #0c2e8a;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
 }
 
 #intro .intro-content h2 span {
-  color: #7e7e7e;
+  color: #50d8af;
   text-decoration: underline;
 }
 
@@ -225,13 +224,13 @@ h6 {
 }
 
 #intro .intro-content .btn-projects {
-  background: #7e7e7e;
-  border: 2px solid #7e7e7e;
+  background: #50d8af;
+  border: 2px solid #50d8af;
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 #intro #intro-carousel {
@@ -345,7 +344,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 .nav-menu > li {
@@ -373,7 +372,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 .nav-menu ul ul {
@@ -456,11 +455,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 #mobile-body-overly {
@@ -514,7 +513,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #7e7e7e;
+  background: #50d8af;
   bottom: 0;
   left: 0;
 }
@@ -566,7 +565,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 #about .content ul {
@@ -614,7 +613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #0c2e8a;
-  background: linear-gradient(45deg, #7e7e7e 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -672,7 +671,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #7e7e7e;
+  background-color: #50d8af;
 }
 
 /* Our Portfolio Section
@@ -806,7 +805,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #7e7e7e;
+  background-color: #50d8af;
 }
 
 /* Call To Action Section
@@ -843,8 +842,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #7e7e7e;
-  border: 3px solid #7e7e7e;
+  background: #50d8af;
+  border: 3px solid #50d8af;
 }
 
 /* Our Team Section
@@ -870,7 +869,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-  background: #7e7e7e;
+  background: #50d8af;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -917,7 +916,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 #contact .contact-info address,
@@ -939,7 +938,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #7e7e7e;
+  color: #50d8af;
 }
 
 #contact .contact-address,
@@ -954,8 +953,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #7e7e7e;
-  border: 1px solid #7e7e7e;
+  color: #50d8af;
+  border: 1px solid #50d8af;
   display: none;
   text-align: center;
   padding: 15px;
@@ -996,7 +995,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #7e7e7e;
+  background: #50d8af;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
