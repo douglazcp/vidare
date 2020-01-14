@@ -152,6 +152,24 @@ jQuery(document).ready(function ($) {
     }
   });
 
+  // Fornecedores carousel (uses the Owl Carousel library)
+  $(".fornecedores-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      768: {
+        items: 4
+      },
+      900: {
+        items: 6
+      }
+    }
+  });
+
   // Clients carousel (uses the Owl Carousel library)
   $(".estrutura-carousel").owlCarousel({
     autoplay: true,
