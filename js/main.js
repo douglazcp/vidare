@@ -116,6 +116,14 @@ jQuery(document).ready(function ($) {
   });
 
 
+  // Clients carousel (uses the Owl Carousel library)
+  $(".portfolio-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    autoHeight: true,
+  });
+
   // Porfolio - uses the magnific popup jQuery plugin
   $('.portfolio-popup').magnificPopup({
     type: 'image',
@@ -176,5 +184,23 @@ jQuery(document).ready(function ($) {
     dots: true,
     loop: true,
     autoHeight: true,
+  });
+
+  // Porfolio - uses the magnific popup jQuery plugin
+  $('.estrutura-popup').magnificPopup({
+    type: 'image',
+    removalDelay: 300,
+    mainClass: 'mfp-fade',
+    gallery: {
+      enabled: true
+    },
+    zoom: {
+      enabled: true,
+      duration: 300,
+      easing: 'ease-in-out',
+      opener: function (openerElement) {
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+      }
+    }
   });
 });
